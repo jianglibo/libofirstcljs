@@ -1,4 +1,4 @@
-(ns example.views
+(ns libofirstcljs.views
   (:require
     [hiccup
       [page :refer [html5]]

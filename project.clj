@@ -16,7 +16,7 @@
               :compiler {:output-to "resources/public/js/main.js"
                          :optimizations :whitespace
                          :pretty-print true}}]}
-  :ring {:handler example.routes/app})
+  :ring {:handler libofirstcljs.routes/app})
 
   ;;:main ^:skip-aot libofirstcljs.core
   ;;:target-path "target/%s"
