@@ -11,6 +11,13 @@ Download from http://example.com/FIXME.
 lein ring server-headless 3000 &
 lein trampoline cljsbuild repl-listen
 
+lein trampoline cljsbuild repl-launch firefox-naked
+
+lein trampoline cljsbuild repl-launch firefox http://localhost:3000/repl-demo
+
+lein cljsbuild test
+lein cljsbuild test unit
+
 
 # cljsbuild-example-simple
 
